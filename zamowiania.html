@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kochamy kawę</title>
+    <link rel="stylesheet" href="./styl.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="menu">
+        <a href="./index.html">Strona główna</a>
+        <a href="./zamowiania.html">Zamówienia</a>
+        <a href="./blog.html">Blog</a>
+        <a href="./http://gatunki-kawy.pl/">Gatunki kawy</a>
+    </div>
+    <div class="logo"><img src="./logo1.png" alt="Kawa"></div>
+    <div class="baner"><h1>Sklep z kawą</h1></div>
+    <div class="lewy">
+
+        <label for="nrkawy">Podaj numer kawy: </label>
+        <input type="number"id="nrkawy">
+        <br/>
+        <label for="wagak">Podaj wagę w dekagramach: </label>
+        <input type="number" id="wagak">
+        <br/>
+        <button id="btn" onclick="start()">Zamów</button>
+        <br/>
+        <span id="wynik"></span>
+        
+    </div>
+    <div class="prawy">
+        <h3>Oferta</h3>
+        <ul>
+            <li>Arabica</li>
+            <li>Robusta</li>
+            <li id="lix">bezkofeinowa</li>
+            <li>zielona</li>
+        </ul>
+    </div>
+    <div class="stopka">Stronę przygotował: <b>00000000000</b></div>
+</body>
+</html>
